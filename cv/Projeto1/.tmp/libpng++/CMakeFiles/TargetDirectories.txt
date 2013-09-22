@@ -1,0 +1,2 @@
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/CMakeFiles/read.dir
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/CMakeFiles/write.dir

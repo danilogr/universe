@@ -1,0 +1,308 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/color.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/config.hpp
+endian.h
+-
+machine/endian.h
+-
+sys/_endian.h
+-
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/consumer.hpp
+cassert
+-
+stdexcept
+-
+iostream
+-
+istream
+-
+config.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/config.hpp
+error.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/error.hpp
+streaming_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/streaming_base.hpp
+reader.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/reader.hpp
+pixel_buffer.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_buffer.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/convert_color_space.hpp
+error.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/error.hpp
+rgb_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/rgb_pixel.hpp
+rgba_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/rgba_pixel.hpp
+gray_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/gray_pixel.hpp
+ga_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/ga_pixel.hpp
+index_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/index_pixel.hpp
+reader.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/reader.hpp
+writer.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/writer.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/end_info.hpp
+info_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/info_base.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/error.hpp
+stdexcept
+-
+cerrno
+-
+cstdlib
+-
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/ga_pixel.hpp
+limits
+-
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+pixel_traits.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_traits.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/generator.hpp
+cassert
+-
+stdexcept
+-
+iostream
+-
+ostream
+-
+config.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/config.hpp
+error.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/error.hpp
+streaming_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/streaming_base.hpp
+writer.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/writer.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/gray_pixel.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+packed_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/packed_pixel.hpp
+pixel_traits.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_traits.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/image.hpp
+fstream
+-
+pixel_buffer.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_buffer.hpp
+generator.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/generator.hpp
+consumer.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/consumer.hpp
+convert_color_space.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/convert_color_space.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/image_info.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+palette.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/palette.hpp
+tRNS.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/tRNS.hpp
+pixel_traits.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_traits.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/index_pixel.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+packed_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/packed_pixel.hpp
+pixel_traits.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_traits.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/info.hpp
+cassert
+-
+info_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/info_base.hpp
+image_info.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/image_info.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/info_base.hpp
+cassert
+-
+error.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/error.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/io_base.hpp
+cassert
+-
+cstdio
+-
+error.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/error.hpp
+info.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/info.hpp
+end_info.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/end_info.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/packed_pixel.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/palette.hpp
+vector
+-
+color.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/color.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_buffer.hpp
+cassert
+-
+cstddef
+-
+stdexcept
+-
+vector
+-
+packed_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/packed_pixel.hpp
+gray_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/gray_pixel.hpp
+index_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/index_pixel.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_traits.hpp
+limits
+-
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/png.hpp
+png.h
+-
+config.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/config.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+error.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/error.hpp
+color.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/color.hpp
+palette.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/palette.hpp
+tRNS.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/tRNS.hpp
+packed_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/packed_pixel.hpp
+rgb_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/rgb_pixel.hpp
+rgba_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/rgba_pixel.hpp
+gray_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/gray_pixel.hpp
+ga_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/ga_pixel.hpp
+index_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/index_pixel.hpp
+info_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/info_base.hpp
+info.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/info.hpp
+end_info.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/end_info.hpp
+io_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/io_base.hpp
+reader.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/reader.hpp
+writer.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/writer.hpp
+generator.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/generator.hpp
+consumer.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/consumer.hpp
+pixel_buffer.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_buffer.hpp
+require_color_space.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/require_color_space.hpp
+convert_color_space.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/convert_color_space.hpp
+image.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/image.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/reader.hpp
+cassert
+-
+io_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/io_base.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/require_color_space.hpp
+error.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/error.hpp
+rgb_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/rgb_pixel.hpp
+rgba_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/rgba_pixel.hpp
+gray_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/gray_pixel.hpp
+ga_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/ga_pixel.hpp
+index_pixel.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/index_pixel.hpp
+io_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/io_base.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/rgb_pixel.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+pixel_traits.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_traits.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/rgba_pixel.hpp
+types.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+pixel_traits.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_traits.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/streaming_base.hpp
+cassert
+-
+image_info.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/image_info.hpp
+pixel_traits.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/pixel_traits.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/tRNS.hpp
+vector
+-
+color.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/color.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/types.hpp
+png.h
+-
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/writer.hpp
+cassert
+-
+io_base.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/io_base.hpp
+
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/read.cpp
+png++/png.hpp
+/home/danilo/Dropbox/UFSCar/02-2013/Tópicos 3 - Visão Computacional/3aSemana/Projeto1/png++/png++/png.hpp
+
