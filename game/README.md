@@ -2,7 +2,6 @@ Introduction
 ====
 
 Simple game experiment
-to try out Html5Quintus.
 
 Sprites
 ====
@@ -17,3 +16,9 @@ Game
 =====
 
 Minimalist version of Bomberman
+
+Running instructions
+=====
+As Ajax won't work locally (Cross origin requests are denied)
+you are required to run a simple HTTP server. Like:
+python2 -m SimpleHTTPServer

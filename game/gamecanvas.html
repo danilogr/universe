@@ -1,0 +1,191 @@
+<html>
+<head>
+<title> Game test </title>
+<script src="js/ajax.js"></script>
+<script src="js/sprites.js"></script>
+<script src="js/map.js"> </script>
+<script src="js/input.js"> </script>
+<script>
+
+var Game = 
+{
+    canvas : undefined,
+    ctx    : undefined,
+    sprites: undefined,
+    timer  : -1,
+    refreshRate : 1000/30,
+    player : new Player(),
+
+    loop : function()
+    {
+
+        Game.map.draw(Game.ctx,0,0);
+        Game.inputUpdate(1);
+        Game.player.draw(Game.ctx);
+        
+    },
+
+    map: new Map([
+
+    [1,1,1,1,1,1,1,1,1],
+    [1,0,0,2,2,2,2,2,1],
+    [1,0,1,2,1,2,1,2,1],
+    [1,2,2,2,2,2,2,2,1],
+    [1,2,1,2,1,2,1,2,1],
+    [1,2,0,0,0,2,2,0,1],
+    [1,2,1,2,1,2,1,0,1],
+    [1,2,2,2,2,2,2,0,1],
+    [1,1,1,1,1,1,1,1,1]
+    ],
+    ["BackgroundTile.png","SolidBlock.png","ExplodableBlock.png"],
+    64,64),
+
+    reset: function()
+    {
+      this.player.x = 64;
+      this.player.y = 64;
+    },
+
+    inputUpdate: function(modifier)
+    {
+
+      //processa as teclas de movimento
+      for (key in this.keyMap)
+      {
+        var  o = this.keyMap[key];
+        if(o.pressed)
+        {
+            var colidex=false, colidey=false;
+            var prox_x = this.player.x + o.x*this.player.speed;
+            var prox_y = this.player.y + o.y*this.player.speed;
+
+            //testa colisao
+            if(!this.map.tile(this.player.x+o.dx,prox_y+64+o.dy,o.vx,o.vy,0))
+              colidey = true;
+
+            if(!this.map.tile(prox_x+o.dx,this.player.y+64+o.dy,o.vx,o.vy,0))
+              colidex = true;
+
+            if(!colidex)
+              this.player.x = prox_x;
+
+
+            if(!colidey)
+              this.player.y = prox_y;
+        }
+      }
+
+    },
+
+
+    keyMap: {
+              "38":  {
+                sprite: "UP",
+                pressed: false,
+                x: 0,
+                y: -1,
+                vx: 63,
+                vy: 0,
+                dx: 0,
+                dy: 0
+
+              },
+
+              "40":  {
+                sprite: "DOWN", 
+                pressed: false,
+                x: 0,
+                y: 1,
+                vx: 63,
+                vy: 0,
+                dx: 0,
+                dy: 64
+              },
+              "37":  {
+                sprite: "LEFT",
+                pressed: false,
+                x: -1,
+                y: 0,
+                vx: 0,
+                vy: 63,
+                dx: 0,
+                dy: 0
+              },
+              "39":  {
+                sprite: "RIGHT",
+                pressed: false,
+                x: 1,
+                y: 0,
+                vx: 0,
+                vy: 63,
+                dx: 64,
+                dy: 0
+              },
+
+              count: 0
+    },
+
+    keyChange: function(key,state)
+    {
+
+      if(Game.keyMap[key])
+      {
+        if(state)
+        {
+          if(!this.keyMap[key].pressed)
+          {
+            this.player.animationState = Game.keyMap[key].sprite;
+            this.player.animate(true);
+            this.keyMap[key].pressed = true;
+            this.keyMap.count++;
+          }
+        } else {
+          this.keyMap[key].pressed = false;
+          this.keyMap.count--;
+          if(this.keyMap.count == 0)
+            this.player.animate(false);
+        }
+      }
+
+
+    }
+
+};
+
+
+// função que inicializa o jogo
+function gamesetup()
+{
+  //obtem o canvas principal e o contexto
+  Game.canvas = document.getElementById('gamecanvas');
+  Game.ctx    = Game.canvas.getContext('2d');
+
+  //carrega os sprites
+  Game.sprites = new Spritesheet("spritesheet/bomberman.png","spritesheet/bomberman.json", function(){
+        Game.map.spritesheet = Game.sprites;
+        Game.map.update();
+
+        window.addEventListener("keydown",function(e) { Game.keyChange(e.keyCode,true);});
+        window.addEventListener("keyup",function(e) {  Game.keyChange(e.keyCode,false); });
+
+        Game.player.spritesheet = Game.sprites;
+        Game.reset();
+        Game.timer = setInterval(Game.loop,Game.refreshRate);
+      });
+
+}
+
+
+</script>
+
+</head>
+<body onload="gamesetup()">
+<canvas id='gamecanvas'  style="padding-left:0; padding-right: 0; margin-left: auto; margin-right: auto; display: block; width: 576;" width="576" height="576"/>
+
+<script>
+  
+</script>
+<body>
+
+
+<html>

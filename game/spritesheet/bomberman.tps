@@ -20,9 +20,9 @@
         <key>dpi</key>
         <uint>72</uint>
         <key>dataFormat</key>
-        <string>cocos2d</string>
+        <string>json</string>
         <key>textureFileName</key>
-        <filename>bomberman.png</filename>
+        <filename>bomberman2.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -111,7 +111,7 @@
             <enum type="AndEngine::MagFilter">MagLinear</enum>
         </struct>
         <key>dataFileName</key>
-        <filename>bomberman.plist</filename>
+        <filename>bomberman.json</filename>
         <key>mainExtension</key>
         <string></string>
         <key>forceIdenticalLayout</key>
@@ -156,12 +156,6 @@
             <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Powerups/BombPowerup.png</filename>
             <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Powerups/FlamePowerup.png</filename>
             <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Powerups/SpeedPowerup.png</filename>
-            <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Menu/Control_PlayerOne.png</filename>
-            <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Menu/Control_PlayerTwo.png</filename>
-            <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Menu/One_Player_Hover.png</filename>
-            <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Menu/One_Player_Normal.png</filename>
-            <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Menu/Two_Players_Hover.png</filename>
-            <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Menu/Two_Players_Normal.png</filename>
             <filename>../../../../Dropbox/Linux/Projects/universe/game/Sprites/Bomb</filename>
         </array>
         <key>ignoreFileList</key>
