@@ -1,0 +1,1 @@
+This is a simple module that connects to OpenERP's WebInterface and allows the user to login/list manufacturing orders and to consume-produce manufacturing orders that are in the state ready
