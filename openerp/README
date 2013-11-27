@@ -1,1 +1,8 @@
 This is a simple module that connects to OpenERP's WebInterface and allows the user to login/list manufacturing orders and to consume-produce manufacturing orders that are in the state ready
+
+USAGE:
+In [1]: import openerp
+In [2]: a = openerp.mrp('http://192.168.1.25:8069')  # http:// is necessary
+In [3]: a.login('admin','admin')                    
+
+(Check dir(openerp.mrp) for more functions)
