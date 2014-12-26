@@ -16,7 +16,7 @@ set nocompatible
 "                                 Bundle
 "===============================================================================
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim   " Don't forget to clone vundle in this directory
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'                " Vundle requires itself
@@ -42,7 +42,13 @@ set number                          " show line numbers
 set encoding=utf-8                  " default encoding
 set ruler                           " cursor current position
 set wildmenu                        " auto-completes bottom menu
-set wildignore=*.o,*.swp,*.pyc
+set wildignore=*.o,*.swp,*.pyc,*~
+set ffs=unix,dos,mac                " unix as standard file type
+set mouse=a                         " enables mouse
+set showmatch                       " show matching brackets when text 
+                                    " indicator is over them
+set colorcolumn=81                  " highlights column #80
+
 
 "
 "spelling
@@ -52,7 +58,8 @@ nnoremap ,s :set invspell spell?<CR>
 
 "
 "search
-""
+"
+set incsearch                   " search while typing (incremental)
 set ignorecase                  " Ignore case when searching
 set smartcase                   " but be smart about cases
 set hlsearch                    " highlight search
@@ -101,8 +108,12 @@ autocmd FileType javascript,html,css,php autocmd InsertEnter * set cursorline
 set background=dark
 colorscheme solarized
 
-if !has("gui_running")
+if has("gui_running")
+    set guioptions-=T
+    set guioptions+=e
+else
     " Consoles are forced to used an approximate colorscheme  
+    set background=light
     set t_Co=8
     let g:solarized_termcolors=256
     set t_Co=256
