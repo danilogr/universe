@@ -1,5 +1,5 @@
-#CS292 (Udacity)[https://www.udacity.com/course/viewer#!/c-ud292]
-===============
+#CS292 [Udacity](https://www.udacity.com/course/viewer#!/c-ud292)
+==============
 
 Even though I had a basic knowledge about HTML5 Canvas, I had to take this
 course as it was very small (And I wanted to watch an entire Udacity Course :P)
