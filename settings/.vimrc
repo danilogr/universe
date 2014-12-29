@@ -1,5 +1,5 @@
 "@danilogasques .vimrc
-"last updated 12/26/2014
+"last updated 12/29/2014
 "
 " Requirements:
 "   *  Vundle (https://github.com/gmarik/Vundle.vim) 
@@ -22,9 +22,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'                " Vundle requires itself
 Plugin 'Valloric/YouCompleteMe'           " Auto-completion
 Plugin 'altercation/vim-colors-solarized' " Theme
-Plugin 'Townk/vim-autoclose'              " Automatically close brackets
+"Plugin 'Townk/vim-autoclose'              " Automatically close brackets
 Plugin 'airblade/vim-gitgutter'           " Shows signs for added, modified, and
                                           " removed lines (git only)
+Plugin 'scrooloose/nerdtree'               " Nice plugin to explore the fsys
 call vundle#end()
 filetype plugin on
 filetype plugin indent on
