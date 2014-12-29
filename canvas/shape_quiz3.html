@@ -16,7 +16,7 @@
       ctx.lineTo(150,50);
       ctx.lineTo(150,150);
       ctx.lineTo(50,150);
-      ctx.lineTo(50,50);
+      ctx.lineTo(50,50); //required. ctx.stroke closes the gap
       ctx.stroke();
 
       //triangle
@@ -24,7 +24,7 @@
       ctx.moveTo(75,75);
       ctx.lineTo(125,75);
       ctx.lineTo(125,125);
-      ctx.lineTo(75,75);
+      //ctx.lineTo(75,75); //not required. ctx.fill closes the gap
       ctx.fill();
 
     </script>
