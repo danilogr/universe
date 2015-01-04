@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Quiz #4 </title>
+  </head>
+  <body>
+    <canvas id="c" width="640" height="480">
+      <script>
+        var c = document.querySelector("#c");
+        var ctx = c.getContext("2d");
+        var txt = "CANVAS MEMES!";
+
+        var img = new Image();
+        img.onload =  function() {
+          ctx.drawImage(img, 0, 0, c.width, c.height);
+
+          ctx.font = "36pt Impact";
+          ctx.textBaseline = "top";
+          ctx.textAlign = "center";
+
+          ctx.fillStyle="#FFF";
+          ctx.fillText(txt,c.width/2,0);
+
+          ctx.strokeStyle = "#000"
+          ctx.lineWidth = 3;
+          ctx.strokeText(txt,c.width/2,0);
+        }
+
+        img.src = "fry.png"
+      </script>
+  </body>
+</html>
