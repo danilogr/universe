@@ -15,7 +15,7 @@
          Each pixel uses 4 elements of the array.
          In order to have i pointing to the first element of a pixel, one should
          loop through the array always incrementing i by 4. I.e.:
-         for(var i=0; i < imgDataArray.length; ++i)
+         for(var i=0; i < imgDataArray.length; i += 4)
          As we are interested on pixels that are multiple of 10 (considering the
          first pixel as 0), we should start i with 0 (i=0 for the first pixel,
          i=4 for the second pixel and so on). And we should increment it by 40
