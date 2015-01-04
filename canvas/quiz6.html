@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Quiz #6 </title>
+  </head>
+  <body>
+    <canvas width="320" height="240" id="c"></canvas>
+    <script>
+      var c = document.querySelector("#c");
+      var ctx = c.getContext("2d");
+
+      var imgData = ctx.getImageData(0,0,c.width, c.height);
+      var imgDataArray = imgData.data;
+      /*
+         Each pixel uses 4 elements of the array.
+         In order to have i pointing to the first element of a pixel, one should
+         loop through the array always incrementing i by 4. I.e.:
+         for(var i=0; i < imgDataArray.length; ++i)
+         As we are interested on pixels that are multiple of 10 (considering the
+         first pixel as 0), we should start i with 0 (i=0 for the first pixel,
+         i=4 for the second pixel and so on). And we should increment it by 40
+         (10 pixels)
+         Teacher's answer consider the first pixe
+       */
+      for (var i = 0; i < imgDataArray.length; i += 40)
+      {
+        imgDataArray[i+0] = 0;   // Red
+        imgDataArray[i+1] = 255; // Green
+        imgDataArray[i+2] = 0;   // Blue
+        imgDataArray[i+3] = 255; //Alpha
+      }
+
+      ctx.putImageData(imgData,0,0);
+
+    </script>
+
+  </body>
+</html>
