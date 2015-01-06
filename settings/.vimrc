@@ -88,6 +88,8 @@ au FileType javascript,css,php set textwidth=79
 set foldmethod=syntax
 set foldcolumn=0
 set foldenable
+" space open/closes folds
+nnoremap <space> za
 
 "fast window resizing
 nmap <S-Down> :res +5<CR>
