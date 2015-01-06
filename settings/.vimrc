@@ -1,5 +1,5 @@
 "@danilogasques .vimrc
-"last updated 12/29/2014
+"last updated 1/6/2015
 "
 " Requirements:
 "   *  Vundle (https://github.com/gmarik/Vundle.vim) 
