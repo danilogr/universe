@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Quiz #7 </title>
+  </head>
+  <body>
+    <canvas width="640" height="480" id="c"></canvas>
+    <script>
+      var c = document.querySelector("#c");
+      var ctx = c.getContext("2d");
+
+
+      //==================== CONTEXT MODIFICATIONS ===========================//
+      ctx.bwAlg = {
+          "red": function(r,g,b) { return r; },
+          "green": function(r,g,b) {  return g; },
+          "blue": function(r,g,b) { return b; },
+          "avg": function(r,g,b) { return (r+g+b)/3; },
+          "luma": function(r,g,b) { return (r*0.3 + g*0.59 + b*0.11); },
+          "2colors": function(r,g,b) { if(this.blue(r,g,b) > 128) return 255; return 0; },
+          "desaturation": function(r,g,b) { return (Math.max(r,g,b) + Math.min(r,g,b))/2; },
+          "max": function(r,g,b) { return Math.max(r,g,b); },
+          "min": function(r,g,b) { return Math.min(r,g,b); } 
+        };
+
+      ctx.bw = function(alg)
+      {
+        //Validate input
+        if (!alg)
+          return;
+
+        alg = alg.toLowerCase();
+        if (!alg in this.bwAlg)
+        {
+          alg = "avg";
+        }
+
+        //Get old image data
+        var imgData = this.getImageData(0,0,c.width, c.height);
+        var imgDataArray = imgData.data;
+
+        for (var i = 0; i < imgDataArray.length; i += 4)
+        {
+          var grayed_color = this.bwAlg[alg](imgDataArray[i],imgDataArray[i+1],
+          imgDataArray[i+2]);
+
+          imgDataArray[i+0] = grayed_color; // Red
+          imgDataArray[i+1] = grayed_color; // Green
+          imgDataArray[i+2] = grayed_color; // Blue
+          imgDataArray[i+3] = 255; //Alpha
+        }
+
+        this.putImageData(imgData,0,0);
+ 
+      }
+
+      //======================================================================//
+
+
+      //Loads image
+      var img = new Image();
+      img.onload = function()
+      {
+        ctx.background_image = img;
+        ctx.drawImage(img,0,0,c.width,c.height);
+      }
+
+      img.src = "fry.png";
+
+      //Creates buttons events
+      var paint = function()
+      {
+
+        console.log("Painting it ",this.innerHTML);
+        //(this is expected to be a button)
+        ctx.drawImage(img,0,0,c.width,c.height);
+        ctx.bw(this.innerHTML);
+      }
+
+      document.body.onload =  function()
+      {
+        var buttons = document.getElementById('buttons');
+        for (var i in ctx.bwAlg)
+        {
+          var button = document.createElement('button');
+          button.innerHTML = i;
+          button.onclick   = paint;
+          buttons.appendChild(button);
+        }
+
+        //last but not least, a button to print the original one
+        var button = document.createElement('button');
+        button.innerHTML = "none";
+        button.onclick = function() { ctx.drawImage(img,0,0,c.width,c.height); };
+        buttons.appendChild(button);
+
+      }
+
+    </script>
+
+    <br>
+    <h2>Choose b&w algorithm</h2>
+    <div id='buttons'></div>
+
+  </body>
+</html>
