@@ -19,3 +19,6 @@ This should start a server listening on `0.0.0.0:8000`
  * [Quiz #4](http://danilogr.github.io/universe/canvas/quiz4.html)
  * [Quiz #5](http://danilogr.github.io/universe/canvas/quiz5.html)
  * [Quiz #6](http://danilogr.github.io/universe/canvas/quiz6.html)
+ * [Quiz #7 - Black & White](http://danilogr.github.io/universe/canvas/quiz7.html)
+   For this quiz I implemented a variety of one-line-b&w algorithms. To find more
+   about the subject, there is an interesting article [here](http://www.tannerhelland.com/3643/grayscale-image-algorithm-vb6/)
