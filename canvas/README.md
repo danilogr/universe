@@ -25,3 +25,7 @@ This should start a server listening on `0.0.0.0:8000`
  * [Video Canvas](http://danilogr.github.io/universe/canvas/video1.html)
    This is an example on how to use two canvas in order to create 
    the green screen effect.
+ * [GetUserMedia + Video + Canvas](http://danilogr.github.io/universe/canvas/video2.html)
+   This is an example on how to use getUserMedia to grab the user's camera
+   and draw it in black and white.
+   [Source] (http://html5hub.com/using-the-getusermedia-api-with-the-html5-video-and-canvas-elements/)
