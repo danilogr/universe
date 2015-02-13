@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function()    {
       var v = document.querySelector("#v");
       var c = document.querySelector("#c");
       var btn = document.querySelector("#capturebtn");
-      var sbnt = document.querySelector("#savebtn");
+      var sbtn = document.querySelector("#savebtn");
       var img = document.querySelector("#background");
       img.BackgroundSet = false;
       var b = document.querySelector("#back");
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function()    {
         img.BackgroundSet = true;
       });
       
-      btn.addEventListener("click", function(){
+      sbtn.addEventListener("click", function(){
         window.open(c.toDataURL());
       });
 
